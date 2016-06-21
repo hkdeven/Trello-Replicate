@@ -9,7 +9,8 @@
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="jquery.ui.touch-punch.js"></script>
     <script src="node_modules/socket.io-client/socket.io.js"></script>
-
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
     <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
     <script src="node_modules/rxjs/bundles/Rx.js"></script>
@@ -31,7 +32,7 @@
             .then(null, console.error.bind(console));
     </script>
   </head>
-  <!-- 3. Display the application -->
+  <!-- Display the application -->
   <body>
     <gtm-app></gtm-app>
   </body>
